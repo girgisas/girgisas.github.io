@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" class="no-ie">
+<head>
+<title>Ashley Girgis | Coding Portfolio</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="Vanilla touchTouch Demo">
+
+<style type="text/css">
+
+body {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto 20px auto;
+}
+.photos {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 700px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid #aaa;
+    text-align: center;
+    font-size: 0;
+}
+.button {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 10px 14px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #121212;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    border: 1px solid #777;
+}
+ul {
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    width: 80%;
+}
+.magnifier {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 8px);
+    margin: 4px;
+}
+.magnifier img {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    height: auto;
+}
+</style>
+<link rel="stylesheet" href="../src/touchTouch.css">
+</head>
+<body style="background-color:#07122A;">
+
+<h1 style="text-align: left; font-weight: bold; color: whitesmoke;"><font face = "Monaco">Ashley Girgis | Coding Portfolio</h1>
+<p style="font-size: 90%; text-align: left; color: #57B169;"><font face = "Monaco"><b>## I began coding in 2019 to deepen my statistical and analytical abilities while pursuing a Bachelor of Health Sciences degree. </br> ## At this point, I realized how passionate I was about harnessing data to uncover valuable insights and fuel meaningful innovation. </p> <p style="font-size: 80%; text-align: left; color: whitesmoke;"><font face = "Monaco">  <b><i> Note: </i> </b></br> 1) Projects below only include snippets of code and not full solutions. </br> 2) Currently, only desktop view is supported. Click here if you are viewing on a mobile device: <a href="https://drive.google.com/drive/folders/1dnYDWm_dDT8Ue7Epgu6znjeeMDYm9EiZ?usp=sharing" style="color: skyblue;">Shared Google Drive</a> </p>
+
+<!--<ul>
+<li><b>Supported Actions:</b></li>
+<li><b>Keyboard Navigation</b>: ESC (close), LEFT (prev image), RIGHT (next image)</li>
+<li><b>Mouse Navigation</b>: CLICK BACKGROUND (close), CLICK LEFT ARROW (prev image), CLICK RIGHT ARROW (next image), SWIPE RIGHT (prev image), SWIPE LEFT (next image)</li>
+<li><b>Touch Navigation</b>: TAP BACKGROUND (close), SWIPE RIGHT (prev image), SWIPE LEFT (next image)</li>
+<li><b>Keyboard Gestures</b>: UP/DOWN (scale up/down image), CTRL + UP/DOWN/LEFT/RIGHT (move scaled image)</li>
+<li><b>Mouse Gestures</b>: WHEEL + CTRL (scale up/down image), CTRL + MOVE (move scaled image)</li>
+<li><b>Touch Gestures</b>: TWO-FINGER PINCH (scale up/down image), TWO-FINGER MOVE (move scaled image)</li>
+</ul> -->
+
+<div id="gallery1" class="photos">
+    <a class="magnifier" href="./imgs/1.jpg" title="COVID-19 Vaccine Twitter Surveillance System - Built a supervised machine learning model which predicts the percent of daily COVID vaccine hesitant tweets"><img src="./imgs/thumbs/1.jpg" width="240" 
+     height="208" /></a>
+    <a class="magnifier" href="./imgs/2.jpg" title="Matplotlib Climate Change Dashboard - Organized greenhouse gas emissions data and prodcued a variety of visualizations (line graph, bar graph, histogram)"><img src="./imgs/thumbs/2.jpg" width="240" 
+     height="208" /></a>
+    <a class="magnifier" href="./imgs/3.jpg" title="Statistical Analysis of COVID-19 Data - Cleansed and manipulated data on COVID vaccinations and deaths in SQL then performed statistical analysis in SAS"><img src="./imgs/thumbs/3.jpg" width="240" 
+     height="208" /></a>
+    <a class="magnifier" href="./imgs/4.jpg" title="Data Wrangling with Synthetic Patient Data - Wrangled artifical electronic medical records and, subsequently, defined new attributes to extract useful information on patient subgroups"><img src="./imgs/thumbs/4.jpg" width="240" 
+     height="208" /></a>
+<!--    <a class="magnifier" href="./imgs/5.jpg"><img src="./imgs/thumbs/5.jpg" /></a>
+    <a class="magnifier" href="./imgs/6.jpg"><img src="./imgs/thumbs/6.jpg" /></a> -->
+</div>
+
+<!--<hr />
+
+<div id="gallery2" class="photos">
+    <a class="magnifier" href="./imgs/1.jpg"><img src="./imgs/thumbs/1.jpg" /></a>
+    <a class="magnifier" href="./imgs/2.jpg"><img src="./imgs/thumbs/2.jpg" /></a>
+    <a class="magnifier" href="./imgs/4.jpg"><img src="./imgs/thumbs/4.jpg" /></a>
+    <a class="magnifier" href="./imgs/3.jpg"><img src="./imgs/thumbs/3.jpg" /></a>
+</div>
+
+<hr />-->
+
+<!--<button id="gallery3" class="button">Show Gallery Programmatically</button>-->
+
+<script src="../src/touchTouch.js"></script>
+<script>
+// multiple instances
+touchTouch(document.getElementById('gallery1').querySelectorAll('.magnifier'), {showCaption:true,customCaption:true});
+touchTouch(document.getElementById('gallery2').querySelectorAll('.magnifier'), {fit:0.7});
+const t = touchTouch([{href:"./imgs/1.jpg"},{href:"./imgs/2.jpg"},{href:"./imgs/4.jpg"},{href:"./imgs/3.jpg"}], {auto:true,fit:0.8,fitsize:600});
+document.getElementById('gallery3').addEventListener('click', () => t.showGallery(), false);
+</script>
+</body>
+</html>
