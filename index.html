@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley Girgis - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="max-width">
+            <div class="tab-navigation">
+                <button class="tab-button active" data-tab="about">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                    </svg>
+                    <span>About Me</span>
+                </button>
+                <button class="tab-button" data-tab="projects">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+                    </svg>
+                    <span>Samples</span>
+                </button>
+                <button class="tab-button" data-tab="research">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <span>Contributions & Impact</span>
+                </button>
+                <button class="tab-button" data-tab="contact">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <span>Contact</span>
+                </button>
+            </div>
+
+            <main class="content-container">
+                <div id="about" class="tab-content active">
+                    <div class="hero-with-callout">
+                        <div class="hero-section">
+                            <div class="profile-card">
+                                <div class="avatar-large">
+                                    <img src="headshot copy.jpg" alt="Ashley Girgis" class="headshot-image">
+                                </div>
+                                <div class="profile-info">
+                                    <h1>Ashley Girgis, MHI</h1>
+                                    <p class="title">Health Informatics Specialist (AI focus)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-description-section">
+                            <div class="callout-bubble">
+                                <p><strong>Welcome to my technical portfolio!</strong><br>Here, I showcase a unique blend of my skills and experience intersecting computer science, business strategy, and healthcare to drive meaningful change.</p>
+                                <div class="callout-arrow-left"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="expertise-section">
+                        <div class="expertise-card">
+                            <h2>Technical Background</h2>
+                            <div class="skills-section">
+                                <div class="skill-category">
+                                    <div class="skill-header">
+                                        <h3>Data Science</h3>
+                                    </div>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Python</span>
+                                        <span class="skill-tag">EDA</span>
+                                        <span class="skill-tag">Tableau</span>
+                                        <span class="skill-tag">Data Visualization</span>
+                                        <span class="skill-tag">SQL</span>
+                                        <span class="skill-tag">Data Types & Structures</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <div class="skill-header">
+                                        <h3>Machine Learning</h3>
+                                    </div>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Sklearn</span>
+                                        <span class="skill-tag">Frameworks: PyTorch, TensorFlow, Flower</span>
+                                        <span class="skill-tag">Federated learning</span>
+                                        <span class="skill-tag">SaMD</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <div class="skill-header">
+                                        <h3>Generative AI</h3>
+                                    </div>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">LLMs</span>
+                                        <span class="skill-tag">GPT</span>
+                                        <span class="skill-tag">Gemini</span>
+                                        <span class="skill-tag">Claude</span>
+                                        <span class="skill-tag">Evaluation Methods</span>
+                                        <span class="skill-tag">Model Experimentation</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <div class="skill-header">
+                                        <h3>EHRs and<br>Data Standards</h3>
+                                    </div>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">EPIC</span>
+                                        <span class="skill-tag">Workflows</span>
+                                        <span class="skill-tag">Digital Implementation</span>
+                                        <span class="skill-tag">Change Management</span>
+                                        <span class="skill-tag">OMOP CDM</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <div class="skill-header">
+                                        <h3>Responsible AI</h3>
+                                    </div>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">AI Ethics</span>
+                                        <span class="skill-tag">Risk-Reward Trade-off</span>
+                                        <span class="skill-tag">Data Sovereignty</span>
+                                        <span class="skill-tag">AI Observability</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="website-stamp">
+                        <p>This site was crafted through collaborative coding with Claude AI.</p>
+                    </div>
+                </div>
+
+                <div id="contact" class="tab-content">
+                    <div class="content-header">
+                        <h2>Contact</h2>
+                    </div>
+
+                    <div class="contact-section">
+                        <h3>Let's Connect</h3>
+                        <div class="contact-links">
+                            <a href="mailto:ashleygirgis@hotmail.com" class="contact-link">
+                                <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                                <span>ashleygirgis@hotmail.com</span>
+                            </a>
+                            <a href="https://linkedin.com/in/agirgis" class="contact-link">
+                                <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                                </svg>
+                                <span>linkedin.com/in/agirgis</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="website-stamp">
+                        <p>This site was crafted through collaborative coding with Claude AI.</p>
+                    </div>
+                </div>
+
+
+                <div id="projects" class="tab-content">
+                    <div class="technical-section">
+                        <h3>Sample Projects</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <p><strong>Twitter Surveillance System</strong> - ML model predicting daily % of COVID-19 vaccine hesitant tweets</p>
+                                </div>
+                                <div class="project-image clickable-image" data-src="1. Supervised Machine Learning - Twitter Surveillance System in Python.png">
+                                    <img src="01x.jpg" alt="Twitter Surveillance System" />
+                                    <div class="image-overlay">
+                                        <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        <span>Click to view</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <p><strong>Climate Change Dashboard</strong> - Greenhouse gas emissions data with multiple visualization types</p>
+                                </div>
+                                <div class="project-image clickable-image" data-src="2. Climate Change Dashboard constructed using Python_s matplotlib library.png">
+                                    <img src="03x.jpg" alt="Climate Change Dashboard" />
+                                    <div class="image-overlay">
+                                        <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        <span>Click to view</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <p><strong>Statistical Analysis of COVID-19 Data</strong> - SQL data processing for correlation analysis in SAS</p>
+                                </div>
+                                <div class="project-image clickable-image" data-src="3. SQL Cleansing and SAS Statistical Analysis of COVID-19 Data.png">
+                                    <img src="02x.jpg" alt="COVID-19 Data Analysis" />
+                                    <div class="image-overlay">
+                                        <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        <span>Click to view</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <p><strong>Data Wrangling of Synthetic Patient (EMR) Data</strong> - Healthcare data processing and grouping</p>
+                                </div>
+                                <div class="project-image clickable-image" data-src="4. Data Wrangling Synthetic Medical Records in RapidMiner.png">
+                                    <img src="04.jpg" alt="Medical Records Processing" />
+                                    <div class="image-overlay">
+                                        <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                        </svg>
+                                        <span>Click to view</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Modal -->
+                    <div id="imageModal" class="image-modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 id="modalTitle" class="modal-header-title"></h3>
+                                <button class="modal-close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="image-container">
+                                    <button class="nav-button prev-button" aria-label="Previous image">
+                                        <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                                        </svg>
+                                    </button>
+                                    <img id="modalImage" src="" alt="" />
+                                    <button class="nav-button next-button" aria-label="Next image">
+                                        <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="image-info">
+                                    <p id="modalDescription"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-section">
+                        <h3>Education & Professional Development</h3>
+                        
+                        <div class="research-section">
+                            <h4>Advanced Degrees</h4>
+                            <div class="research-grid">
+                                <div class="research-card-expanded">
+                                    <div class="research-header">
+                                        <h4>Master of Health Informatics <a href="https://ihpme.utoronto.ca/programs/health-informatics/" target="_blank">(MHI)</a> - University of Toronto, DLSPH, IHPME</h4>
+                                    </div>
+                                    <div class="research-content">
+                                        <p>AI-recognized degree by Vector Institute. Collaborated in <strong>10+ projects</strong> with nurses, physicians, and computer scientists proposing various AI frameworks for wait time estimation, disease risk prediction, and data de-identification pipelines. <a href="https://www.artsci.utoronto.ca/news/u-t-ranked-first-canada-among-top-30-globally-all-subjects-times-higher-education" target="_blank">University of Toronto is ranked <strong>#1 university in Canada</strong></a>.</p>
+                                    </div>
+                                </div>
+
+                                <div class="research-card-expanded">
+                                    <div class="research-header">
+                                        <h4>Bachelor of Health Studies & Health Informatics Option - University of Waterloo</h4>
+                                    </div>
+                                    <div class="research-content">
+                                        <p>BSc with emphasis on social determinants and patient-centred care. The Health Informatics Option facilitated development of computer science skills through 8 specialized courses including Python, SQL databases, SAS statistical analysis, epidemiology, and knowledge translation. <a href="https://www.waterlooedc.ca/blog/university-of-waterloo-macleans-rankings-2020" target="_blank">University of Waterloo is ranked <strong>#1 in Canada for computer science</strong></a> and <a href="https://uwaterloo.ca/math/news/computer-science-ranked-21st-worldwide" target="_blank"><strong>#21 globally</strong></a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="research-section">
+                            <h4>AI Certifications</h4>
+                            <div class="research-grid">
+                                <div class="research-card-expanded">
+                                    <div class="research-header">
+                                        <h4>AI Certificates</h4>
+                                    </div>
+                                    <div class="research-content">
+                                        <div class="cert-table">
+                                            <div class="cert-row">
+                                                <div class="cert-name"><strong>ML Specialization</strong></div>
+                                                <div class="cert-details">(Completed: 3 courses) Andrew Ng @ Stanford University on Coursera and DeepLearning.AI: 1) Supervised ML, 2) Advanced Learning Algorithms, 3) Unsupervised Learning and Reinforcement Learning</div>
+                                            </div>
+                                            <div class="cert-row">
+                                                <div class="cert-name"><strong>Generative AI Essentials</strong></div>
+                                                <div class="cert-details">(Completed) Bootcamp Certificate @ McMaster's Innovation Hub MacHealthICE</div>
+                                            </div>
+                                            <div class="cert-row">
+                                                <div class="cert-name"><strong>ML Observability Fundamentals</strong></div>
+                                                <div class="cert-details">(Completed) Certificate @ Arize AI</div>
+                                            </div>
+                                            <div class="cert-row">
+                                                <div class="cert-name"><strong>AI 4 Public Health</strong></div>
+                                                <div class="cert-details">(In progress: 3/5 complete) @ AI4PH: Public Health Data Visualization & Storytelling, Critical AI and Public Health, Tools for Data Science</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="website-stamp">
+                        <p>This site was crafted through collaborative coding with Claude AI.</p>
+                    </div>
+                </div>
+
+                <div id="research" class="tab-content">
+
+                    <div class="collapsible-section">
+                        <div class="section-header" onclick="toggleSection('leadership')">
+                            <h3>Leadership & Innovation</h3>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="section-content leadership" id="leadership">
+                            <div class="sub-bubble">
+                                <h4>Digital Health Discovery Platform (DHDP) - Terry Fox Research Institute</h4>
+                                <ul>
+                                    <li>Developed and launched <a href="https://www.dhdp.ca/funding-opportunities/digitalhealthinnovationfund" target="_blank">$25-million Request for Applications</a> aimed at fostering cross-sector partnerships with a scope focused on multi-modal health data sharing and AI advancements</li>
+                                    <li>Engaged with 100+ Executives across Canada's private and public healthcare sectors to build capacity and amplify targeted outreach of the funding opportunity</li>
+                                    <li>Informed selection of national data standards and AI frameworks (OMOP CDM, Flower AI, FAIR principles) by launching DHDP Technology, Data, and AI working groups with diverse domain expertise</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-bubble">
+                                <h4>Women in AI (WAI) - Lavndr Project</h4>
+                                <ul>
+                                    <li>First (1st) place team in the <a href="https://www.womeninai.co/post/recap-the-2022-wai-canada-hackathon-for-sustainable-development-goals-hackathon" target="_blank">WAI Hackathon</a>, sponsored by AltaML, ATB Financial, and Arize AI. Challenge targeted AI solutions addressing Sustainable Development Goals 4, 5, and 9. Project focused on mobile health for high-risk pregnancy prediction, specifically pre-eclampsia.</li>
+                                    <li>Advanced project into a conference poster and paper; presented at conferences: TCAIREM AI in Medicine, IHPME Research and Impact Day, and Future of Health Leadership, Informatics, Policy (FHLIP)</li>
+                                    <li>Finalist for Young AI Role Model of the Year</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collapsible-section">
+                        <div class="section-header" onclick="toggleSection('academic')">
+                            <h3>Academic Contributions</h3>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="section-content academic" id="academic">
+                            <div class="sub-bubble">
+                                <h4>Published Research</h4>
+                                <p><strong>ML for Evidence Synthesis</strong> - Peer-Reviewed publication in Journal of Medical Internet Research (JMIR). Rogers K, Miller A, Girgis A, Clark E, Neil-Sztramko S, Dobbins M. Leveraging AI to Optimize Maintenance of Health Evidence and Offer a One-Stop Shop for Quality-Appraised Evidence Syntheses on the Effectiveness of Public Health Interventions: Quality Improvement Project. J Med Internet Res 2025;27:e69700. URL: <a href="https://www.jmir.org/2025/1/e69700" target="_blank">https://www.jmir.org/2025/1/e69700</a>. DOI: 10.2196/69700</p>
+                                <p><strong>Mobile Health Policy</strong> - IOS Press, The Role of Digital Health Policy and Leadership. Bhasker, S., Candas, K., Girgis, A., Rozario, N., & Santhakumaran, P. (2024). Informing Mobile Health Policy for Pregnant Women in Rural Populations in Canada, with a Focus on Pre-Eclampsia. Studies in health technology and informatics, 312, 107–111. <a href="https://doi.org/10.3233/SHTI231322" target="_blank">https://doi.org/10.3233/SHTI231322</a></p>
+                            </div>
+
+                            <div class="sub-bubble">
+                                <h4>Active Research</h4>
+                                <p><strong>Health Informatics, Visualization, and Equity</strong> (<a href="https://www.hivelab-uoft.ca/" target="_blank">HIVE</a>) <strong>Lab</strong> - Web scraping and investigation of data, leveraging multi-modal LLMs for exploratory analytics</p>
+                                <p><strong>LLM Methods & Evaluation, NCCMT</strong> - Designed LLM evaluation methodology, calculated performance metrics (TPR, TNR, F1) and produced confusion matrices to compare LLMs (GPT, Gemini, and Llama) to human reviewers and traditional ML for <a href="https://www.healthevidence.org/" target="_blank">Health Evidence</a>™ repository evidence screening</p>
+                            </div>
+
+                            <div class="sub-bubble">
+                                <h4>Previous Research</h4>
+                                <p><strong>PREVENT Research Program</strong> - Visiting Research for <a href="https://ihpme.utoronto.ca/initiative/prevent/" target="_blank">PREVENT</a> program focused on personalized prescription plans for chronic disease. Performed heuristic evaluation to promote user-centered product.</p>
+                                <p><strong>NSERC Undergraduate Research Award</strong> - National Sciences and Engineering Research Council (<a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp" target="_blank">NSERC</a>) award recipient, contributing to research with sustainable nanomaterials (cellulose nanocrystals, CNC) in Professor Michael K.C. Tam's chemical engineering lab. Conducted experiments, analyzed data and characterized compounds, and presented conclusions to mentor Shahid Islam, PhD and the research group regarding natural drug discovery for pharmaceutical reduction of cholesterol and next steps.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collapsible-section">
+                        <div class="section-header" onclick="toggleSection('education')">
+                            <h3>Knowledge & Education</h3>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="section-content education" id="education">
+                            <div class="sub-bubble">
+                                <h4>AI in Health Systems Network, <a href="https://www.dlsph.utoronto.ca/event/harvard-x-uoft-6th-health-systems-ai-hackathon/" target="_blank">DLSPH</a></h4>
+                                <p>Co-created and led a network of 70+ graduate students and professionals seeking to build AI literacy, deepen practical understanding, and connect with like-minded peers. Organized and hosted tailored knowledge-building events, including AI workshops, journal clubs, and a webinar series with experts.</p>
+                            </div>
+
+                            <div class="sub-bubble">
+                                <h4>Educational Talks</h4>
+                                <ul>
+                                    <li><strong>Data sharing and Interoperability</strong> webinar hosted by The Cancer Collaborative for Precision medicine awareness month (PMAM) seminar series</li>
+                                    <li><strong>"Navigating AI: Privacy, Ethics, and Social Impact"</strong> Guest lecture hosted at McMaster for INNOVATE 1Z03 Course: AI Innovative Technologies</li>
+                                    <li><strong>ChatGPT and AI Tools</strong> workshop, hosted at National Collaborating Centre for Methods and Tools located at McMaster Innovation Park</li>
+                                    <li><strong>Introduction to Python for Machine Learning</strong> workshop, hosted by AI in Health Systems Network at Dalla Lana School of Public Health</li>
+                                    <li><strong>The Health Data Frontier</strong> Podcast discussing topics on data governance and ethical use of data, hosted by Private AI</li>
+                                    <li><strong>"Bio-Careers Beyond Med: Facilitating Career Path Exploration with a Podcast"</strong> guest speaker for health informatics careers, hosted by University of Toronto</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="website-stamp">
+                        <p>This site was crafted through collaborative coding with Claude AI.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
